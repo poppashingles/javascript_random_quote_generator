@@ -55,7 +55,12 @@ body {
 }
 
 .year:before {
-  content: ", ";
+  content: " - ";
+  font-style: normal;
+}
+
+.season:before {
+  content: " - Season ";
   font-style: normal;
 }
 
